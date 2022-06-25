@@ -2,8 +2,8 @@ import React, { useState, useEffect, useContext } from "react";
 import useFetch from "../../../hooks/useFetch";
 import { FilterOptionContext } from "../../../provider/filter";
 import { SearchContext } from "../../../provider/search";
-import ResultPageMap from "../resultPageMap/ResultPageMap";
-import ResultBikeCardHorizontalWrapper from "../resultBikeCardHorizontalWrapper/ResultBikeCardHorizontalWrapper";
+import ResultPageMap from "./ResultPageMap";
+import ResultBikeCardHorizontalWrapper from "./ResultBikeCardHorizontalWrapper";
 import Loading from "../../../components/loading/Loading";
 import Error from "../../../components/error/Error";
 const ResultPageWrapper = () => {

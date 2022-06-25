@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Button from "../../components/button/Button";
 import Input from "../../components/input/Input";
-import PageWrapper from "../components/pageWrapper/PageWrapper";
+import PageWrapper from "../../components/pageWrapper/PageWrapper";
 import { userContext } from "../../provider/user";
 import Error from "../../components/error/Error";
 import useFetch from "../../hooks/useFetch";

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import useFetch from "../../hooks/useFetch";
-import PageWrapper from "../components/pageWrapper/PageWrapper";
+import PageWrapper from "../../components/pageWrapper/PageWrapper";
 import TEST_ID from "./UserList.testid";
 
 const UserList = () => {

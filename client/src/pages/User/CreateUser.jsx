@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Input from "../../components/input/Input";
 import useFetch from "../../hooks/useFetch";
-import PageWrapper from "../components/pageWrapper/PageWrapper";
+import PageWrapper from "../../components/pageWrapper/PageWrapper";
 import TEST_ID from "./CreateUser.testid";
 
 const CreateUser = () => {

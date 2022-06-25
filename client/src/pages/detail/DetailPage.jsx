@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import PageWrapper from "../components/pageWrapper/PageWrapper";
+import PageWrapper from "../../components/pageWrapper/PageWrapper";
 import { useParams } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
-import ResultPageMap from "../components/resultPageMap/ResultPageMap";
+import ResultPageMap from "../components/result/ResultPageMap";
 import { HiLink } from "react-icons/hi";
 import Loading from "../../components/loading/Loading";
 import { FaMailBulk } from "react-icons/fa";
