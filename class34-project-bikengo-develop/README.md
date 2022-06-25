@@ -3,7 +3,7 @@
 
 <img width="839" alt="bikeAd" src="https://user-images.githubusercontent.com/67834807/163977833-7ffe63d9-9e45-455d-9bd9-eaed61f96a2c.png" style="margin-top: 50px">
 
-# Class 34 final project (BikeNGo)
+# Class 34 final project (BikeNGo):
 
 This is the final project for the HackYourFuture curriculum we did as a class using the MERN stack by following the agile methodology with our team and a group of mentors. A quick guide to what we built:
 
