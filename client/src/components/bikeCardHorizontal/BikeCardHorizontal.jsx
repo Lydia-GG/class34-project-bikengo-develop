@@ -47,14 +47,15 @@ const BikeCardHorizontal = ({
   );
 };
 
-BikeCardHorizontal.propTypes = {
-  id: PropTypes.string.isRequired,
-  img: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  brand: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
-  price: PropTypes.number.isRequired,
-  sellFaster: PropTypes.bool.isRequired,
-};
 
-export default BikeCardHorizontal;
+// BikeCardHorizontal.propTypes = {
+//   id: PropTypes.string.isRequired,
+//   img: PropTypes.string.isRequired,
+//   title: PropTypes.string.isRequired,
+//   brand: PropTypes.string.isRequired,
+//   type: PropTypes.string.isRequired,
+//   price: PropTypes.number.isRequired,
+//   sellFaster: PropTypes.bool.isRequired,
+// };
+
+// export default BikeCardHorizontal;
