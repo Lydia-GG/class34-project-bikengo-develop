@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import ImageUploader from "react-images-upload";
-import Button from "../../../components/button/Button";
+import Button from "../../../../components/button/Button";
 import axios from "axios";
 import PropTypes from "prop-types";
 import "./Photos.css";
-import Loading from "../../../components/loading/Loading";
+import Loading from "../../../../components/loading/Loading";
 const Photos = ({ setPhotos }) => {
   const [filePhotoData, setFilePhotoData] = useState([]);
   const [isImageUploaded, setIsImageUploaded] = useState(false);
