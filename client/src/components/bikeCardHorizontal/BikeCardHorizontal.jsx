@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FavIcon from "../favIcon/FavIcon";
+import SellFasterIcon from "../sellFasterIcon/SellFasterIcon";
 import "./BikeCardHorizontal.css";
 import { useNavigate } from "react-router-dom";
 
@@ -31,7 +31,7 @@ const BikeCardHorizontal = ({
             className="w-full h-full object-cover over"
           />
           <div className="absolute top-1 right-1">
-            <FavIcon sellFaster={sellFaster} />
+            <SellFasterIcon sellFaster={sellFaster} />
           </div>
           <div className="absolute left-3 -bottom-5 bg-text px-4 py-2 rounded-md text-white font-semibold">
             € {price}
